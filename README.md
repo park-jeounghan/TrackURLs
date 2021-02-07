@@ -1,2 +1,2 @@
 # TrackUrl
-Managed by vkvbit
+by vkvbit
