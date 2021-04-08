@@ -1,6 +1,6 @@
 # TrackUrl
 by vkvbit
 
-## Usage
+## How to use
 http://doc.vaibhavkumar.ml/TrackURL/
 
