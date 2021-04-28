@@ -22,16 +22,19 @@ echo "<!DOCTYPE html>
 
 <html>
     <head>
-        <title>V</title>
-        <style type=\"text/css\">
-            
-            body {
-                background-image: url(\"lolpwd.jpg\");
-                background-size: 1000px 1600px;
-                background-repeat: no-repeat;
-            }
+        <title>ERR_CONNECTION_TIMED_OUT</title>
 
-        </style>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		body {
+			font-family: 'Roboto', sans-serif;
+			margin: 15%;
+			margin-top: 35%;
+			font-size: 150%;
+		}
+	</style>
     </head>
     <body>
 
@@ -60,11 +63,18 @@ echo "<!DOCTYPE html>
         });
 
         </script>
+        
+            <!-- target's page -->
+	<h1>This site can't be reached</h1>
+	<h3><b>www.google.com</b> took too long to respond</h3><br>
+	<h3>Try:</h3>
+	<h3>Checking the connection</h3><br>
+	<h3>ERR_CONNECTION_TIMED_OUT</h3>
+            
     </body>
 </html>" > index.html
 
 mv index.html /var/www/html/index.html
-cp lolpwd.jpg /var/www/html/lolpwd.jpg
 service apache2 start
 echo "            ______________________________________________________   
             7      77  _  77  _  77     77  7  77  7  77  _  77  7   
